@@ -4,6 +4,21 @@
     font-family: 'Museo Sans', sans-serif;
 }
 
-h1 {
-    color: red;
+.container {
+    max-width: 950px;
+    margin: 0 auto;
 }
+
+@import '../blocks/promo';
+@import '../blocks/header';
+@import '../blocks/buttons';
+@import '../blocks/benefits';
+@import '../blocks/title';
+@import '../blocks/consultation';
+@import '../blocks/forms';
+@import '../blocks/carousel';
+@import '../blocks/catalog';
+@import '../blocks/reviews';
+@import '../blocks/footer';
+@import '../blocks/media';
+@import '../blocks/modal'
