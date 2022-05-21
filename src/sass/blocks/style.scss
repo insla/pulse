@@ -1,4 +1,9 @@
+@import '../lips/bootstrap-reboot.min';
+@import '../lips/slick';
+@import '../lips/fonts';
+
 @import '../base/variables';
+@import '../base/animations';
 
 * {
     font-family: 'Museo Sans', sans-serif;
@@ -21,4 +26,5 @@
 @import '../blocks/reviews';
 @import '../blocks/footer';
 @import '../blocks/media';
-@import '../blocks/modal'
+@import '../blocks/modal';
+@import '../blocks/pageup';

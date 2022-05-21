@@ -110,8 +110,10 @@
         &__phone {
             margin-bottom: 20px;
         }
-        &__maps {
-            height: 100%;
+        &__map {
+            iframe {
+                height: 100%;
+            }
         }
     }
 }
@@ -250,4 +252,17 @@
             display: flex;
         }
     }
+    .overlay {
+        .feed-form {
+            width: 100%;
+        }
+    }
+    .overlay .modal {
+        width: 280px;
+        .modal__close {
+            top: 10px;
+            right: 10px;
+        }
+    }
+    
 }

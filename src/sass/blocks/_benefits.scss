@@ -6,6 +6,16 @@
         justify-content: space-between;
         margin-top: 65px;
     }
+    &__heart {
+        animation: heartbeat 1.2s ease infinite;
+        // animation: heartbeat;
+        // animation-duration: 1.2s;
+        // animation-timing-function:ease;
+        // animation-iteration-count: infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
     &__icon {
         max-width: 243px;
         font-size: 18px;
